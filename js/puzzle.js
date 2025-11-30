@@ -65,7 +65,7 @@ function createGrid() {
 function createPieces() {
     piecesContainer.innerHTML = '';
     
-    const imageUrl = '../img/puzzle.jpg';
+    const imageUrl = 'https://olezhka87.github.io/puzzle/img/puzzle.jpg';
     const pieces = [];
     const dimensions = getAdaptiveDimensions();
     
@@ -417,4 +417,5 @@ function handleResize() {
 // ИНИЦИАЛИЗАЦИЯ ПРИ ЗАГРУЗКЕ
 document.addEventListener('DOMContentLoaded', function() {
     initGame();
+
 });
