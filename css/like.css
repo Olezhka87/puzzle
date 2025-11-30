@@ -1,0 +1,68 @@
+/* Онлайн счетчик - минимальные стили */
+.online-widget {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(56, 76, 111, 0.9);
+    padding: 10px 15px;
+    border-radius: 20px;
+    z-index: 1000;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.online-dot {
+    width: 10px;
+    height: 10px;
+    background: #4CAF50;
+    border-radius: 50%;
+}
+
+.online-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+}
+
+.online-count {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Уведомления */
+.activity-notification {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    z-index: 1001;
+    font-size: 12px;
+    max-width: 200px;
+
+}
+
+@media (max-width: 900px) {
+    .online-widget {
+        right: 77px;
+    }
+}
+
+
+@media (max-width: 785px) {
+    .volume-control {
+        top: -2%;
+    }
+    
+    h1 {
+            font-size: 40px;
+    }
+    
+    .puzzle-area {
+        max-width: 450px;
+    }
+}
